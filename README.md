@@ -11,7 +11,7 @@ This project is using:
 
 **TL;DR Inxton licensing**
 
-Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton](www.inxton.com).
+Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton](inxton.com).
 
 ## Concept
 
