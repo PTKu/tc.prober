@@ -1,20 +1,22 @@
-﻿using System;
-using System.Collections.Generic;
-using Vortex.Connector;
-
-namespace Tc.Prober.Runners
+﻿namespace Tc.Prober.Runners
 {
+    using System;
+    using Vortex.Connector;
+
+    /// <summary>
+    /// Contains series of helper methods for executing RPC plc methods.
+    /// </summary>
     public static class TaskRunners
     {       
         /// <summary>
-        /// Runs the test method return true.
+        /// Runs the test method until it returns true.
         /// </summary>
         /// <typeparam name="T">Type of subject under test. Must be of <see cref="IVortexObject"/></typeparam>
         /// <param name="sut">Subject under test.</param>
         /// <param name="testMethod"></param>
         public static void Run<T>(this T sut, Func<T, bool> testMethod) where T : IVortexObject
         {
-            while (!testMethod(sut)) ;
+            while (!testMethod(sut));
         }
 
         /// <summary>

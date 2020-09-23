@@ -1,0 +1,40 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Tc.Prober.Runners
+  name: Tc.Prober.Runners
+  href: api/Tc.Prober.Runners.html
+  commentId: N:Tc.Prober.Runners
+  fullName: Tc.Prober.Runners
+  nameWithType: Tc.Prober.Runners
+- uid: Tc.Prober.Runners.TaskRunners
+  name: TaskRunners
+  href: api/Tc.Prober.Runners.TaskRunners.html
+  commentId: T:Tc.Prober.Runners.TaskRunners
+  fullName: Tc.Prober.Runners.TaskRunners
+  nameWithType: TaskRunners
+- uid: Tc.Prober.Runners.TaskRunners.Run*
+  name: Run
+  href: api/Tc.Prober.Runners.TaskRunners.html#Tc_Prober_Runners_TaskRunners_Run_
+  commentId: Overload:Tc.Prober.Runners.TaskRunners.Run
+  isSpec: "True"
+  fullName: Tc.Prober.Runners.TaskRunners.Run
+  nameWithType: TaskRunners.Run
+- uid: Tc.Prober.Runners.TaskRunners.Run``1(``0,System.Func{``0,System.Boolean})
+  name: Run<T>(T, Func<T, Boolean>)
+  href: api/Tc.Prober.Runners.TaskRunners.html#Tc_Prober_Runners_TaskRunners_Run__1___0_System_Func___0_System_Boolean__
+  commentId: M:Tc.Prober.Runners.TaskRunners.Run``1(``0,System.Func{``0,System.Boolean})
+  name.vb: Run(Of T)(T, Func(Of T, Boolean))
+  fullName: Tc.Prober.Runners.TaskRunners.Run<T>(T, System.Func<T, System.Boolean>)
+  fullName.vb: Tc.Prober.Runners.TaskRunners.Run(Of T)(T, System.Func(Of T, System.Boolean))
+  nameWithType: TaskRunners.Run<T>(T, Func<T, Boolean>)
+  nameWithType.vb: TaskRunners.Run(Of T)(T, Func(Of T, Boolean))
+- uid: Tc.Prober.Runners.TaskRunners.Run``2(``0,System.Func{``0,``1},System.Int32)
+  name: Run<T, R>(T, Func<T, R>, Int32)
+  href: api/Tc.Prober.Runners.TaskRunners.html#Tc_Prober_Runners_TaskRunners_Run__2___0_System_Func___0___1__System_Int32_
+  commentId: M:Tc.Prober.Runners.TaskRunners.Run``2(``0,System.Func{``0,``1},System.Int32)
+  name.vb: Run(Of T, R)(T, Func(Of T, R), Int32)
+  fullName: Tc.Prober.Runners.TaskRunners.Run<T, R>(T, System.Func<T, R>, System.Int32)
+  fullName.vb: Tc.Prober.Runners.TaskRunners.Run(Of T, R)(T, System.Func(Of T, R), System.Int32)
+  nameWithType: TaskRunners.Run<T, R>(T, Func<T, R>, Int32)
+  nameWithType.vb: TaskRunners.Run(Of T, R)(T, Func(Of T, R), Int32)
