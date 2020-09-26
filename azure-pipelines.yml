@@ -20,7 +20,9 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: 'restore'
-    projects: '**/*.csproj'
+    projects: |
+      src/**/*.csproj
+      tests/**/*.csproj
     feedsToUse: 'select'
 
 - task: VSBuild@1
