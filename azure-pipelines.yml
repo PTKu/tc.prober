@@ -23,6 +23,7 @@ steps:
     projects: |
       src/**/*.csproj
       tests/**/*.csproj
+      docx/**/*.csproj
     feedsToUse: 'select'
 
 - task: VSBuild@1
