@@ -34,4 +34,8 @@
     </EmbeddedResource>
   </ItemGroup>
 
+  <Target Name="PreBuild" BeforeTargets="PreBuildEvent">
+    <Exec Command="Update-Package -reinstall&#xD;&#xA;cd $(SolutionDir)\_Vortex&#xD;&#xA;builder\vortex.compiler.console.exe" />
+  </Target>
+
 </Project>
