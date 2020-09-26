@@ -26,6 +26,12 @@ steps:
       docx/**/*.csproj
     feedsToUse: 'select'
 
+- task: NuGetCommand@2
+  inputs:
+    command: 'restore'
+    restoreSolution: '**/**/*.csproj'
+    feedsToUse: 'select'
+
 - task: VSBuild@1
   inputs:
     solution: '$(solution)'
