@@ -22,6 +22,14 @@ steps:
     command: 'restore'
     restoreSolution: '**.csproj'
     feedsToUse: 'select'
+
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'restore'
+    projects: '**.csproj'
+    feedsToUse: 'select'
+
+
 - task: PowerShell@2
   inputs:
     targetType: 'inline'
