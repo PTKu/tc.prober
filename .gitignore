@@ -197,6 +197,5 @@ _Libraries/
 *.tmc
 *.tmy
 *.tpy
-_Vortex/log.txt
-_Vortex/pal.txt
 _Vortex/
+docfx/Tc.Prober.Dox/log.txt

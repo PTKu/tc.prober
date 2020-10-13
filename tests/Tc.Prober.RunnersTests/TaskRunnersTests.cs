@@ -51,10 +51,11 @@ namespace Tc.Prober.RunnersTests
             //-- Arrange
             var sut = Entry.Plc.Tests._basicRunnerTests;
             var sw = new System.Diagnostics.Stopwatch();
-            sut.ResetCounter();
+
 
             //-- Act
 
+            sut.ResetCounter();
             var actual = 0;
             sw.Start();
             sut.Run((p) =>

@@ -9,7 +9,7 @@
     public static class TaskRunners
     {       
         /// <summary>
-        /// Runs the test method until it returns true.
+        /// Runs the test method until returns true.
         /// </summary>
         /// <typeparam name="T">Type of subject under test. Must be of <see cref="IVortexObject"/></typeparam>
         /// <param name="sut">Subject under test.</param>
