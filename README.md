@@ -11,7 +11,7 @@ This project is using:
 
 **TL;DR Inxton licensing**
 
-Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at inxton.com.
+Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at inxton.com. **If do not want to register and you are contributing to https://github.com/dhullett08/TcOpen ping me to get license without registration**. 
 
 ## Concept
 
