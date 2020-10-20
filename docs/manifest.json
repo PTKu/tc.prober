@@ -5,11 +5,107 @@
   "files": [
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.IRecorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.IRecorder.html",
+          "hash": "csQmiZSbsPewa5he0qyM2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html",
+          "hash": "j1nmtplp3zy11nD9uHyTjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.RecordFrame-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.RecordFrame-1.html",
+          "hash": "8eQB94CVN1NQT7SbB1DocA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.Recorder-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.Recorder-2.html",
+          "hash": "+4eB6ZhFEdMkiVzTZdHVIQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.RecorderModeEnum.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.RecorderModeEnum.html",
+          "hash": "tUYPKtxqqkDVcmHneEqYAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.Recording-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.Recording-1.html",
+          "hash": "BEEqPoNtDpRK3w48pKZ1Tg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.Runner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.Runner.html",
+          "hash": "qWQE6m+2+FqdZTfFd5cAKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Inxton.Vortex.Recorder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Inxton.Vortex.Recorder.html",
+          "hash": "sBs/i+FbIuaJAbsqpMB1Lg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/Tc.Prober.Runners.TaskRunners.yml",
       "output": {
         ".html": {
           "relative_path": "api/Tc.Prober.Runners.TaskRunners.html",
-          "hash": "ZrLVl8Y29+lnv4UO6P7Fcw=="
+          "hash": "KMJjozEerkrlPLfe8JSnsw=="
         }
       },
       "is_incremental": false,
@@ -21,7 +117,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Tc.Prober.Runners.html",
-          "hash": "gKfiiuaZF0oIAD5E8ObM0A=="
+          "hash": "UXidnnbS26FPLJuPDDZFHg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +129,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "OG7Y71AgK6MLDL2KA9hl4g=="
+          "hash": "Hh03fBvN9hnnYqXJ35B0Gw=="
         }
       },
       "is_incremental": false,
@@ -84,7 +180,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 10,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {
