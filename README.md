@@ -133,6 +133,7 @@ public void RecordAndReplayTest()
 
 ## Advantages
 
+- Direct use of well evolved unit testing frameworks in plc code testing.
 - Testing method is in control of the cycle execution. It allows create assertion in single cycles.
 - Ability to record the state of the plc structure for later reconstruction of hardware behavior. This is particularly useful when the hardware component are available for testing for limited time.
 
