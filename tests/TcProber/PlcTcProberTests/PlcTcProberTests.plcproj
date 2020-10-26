@@ -27,37 +27,43 @@
     <Compile Include="POUs\MAIN.TcPOU">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbInheritanceLevel_1.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbInheritanceLevel_2.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbInheritanceLevel_3.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbInheritanceLevel_4.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbInheritanceLevel_5.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\nestedInheritance\fbRootLevelStruct.TcPOU">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="POUs\NewFolder1\stAllTypes.TcDUT">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="Runners\fbBasicRunnerTests.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\fbRecorderRunnerTests.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\stRecorder.TcDUT">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbInheritanceLevel_1.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbInheritanceLevel_2.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbInheritanceLevel_3.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbInheritanceLevel_4.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbInheritanceLevel_5.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\nestedInheritance\fbRootLevelStruct.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Runners\TestStructs\stAllTypes.TcDUT">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="DUTs" />
     <Folder Include="GVLs" />
-    <Folder Include="POUs\NewFolder1" />
-    <Folder Include="POUs\NewFolder1\nestedInheritance" />
     <Folder Include="Runners" />
+    <Folder Include="Runners\TestStructs" />
+    <Folder Include="Runners\TestStructs\nestedInheritance" />
     <Folder Include="VISUs" />
     <Folder Include="POUs" />
   </ItemGroup>

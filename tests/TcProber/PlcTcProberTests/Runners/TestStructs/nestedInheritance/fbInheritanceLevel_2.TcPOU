@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4022.12">
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.4">
   <POU Name="fbInheritanceLevel_2" Id="{59454bff-4d66-4402-b31c-ed00b6954983}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK fbInheritanceLevel_2 EXTENDS fbInheritanceLevel_1
 VAR

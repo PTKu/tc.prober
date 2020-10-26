@@ -11,6 +11,7 @@
     using System.IO;
     using System.Reflection;
     using Tc.Prober.Recorder;
+    using Vortex.Adapters.Connector.Tc3.Adapter;
 
     [TestFixture()]
     public class RecorderTests
@@ -22,8 +23,7 @@
 
         [OneTimeSetUp]
         public void OneTimeSetUp()
-        {
-            var assemblyPath = Environment.CurrentDirectory; //new FileInfo(Assembly.GetExecutingAssembly().Location).DirectoryName;
+        {          
             var relativePath = Path.GetFullPath(Path.Combine(new FileInfo(Assembly.GetExecutingAssembly().Location).DirectoryName, @"..\..\..\output\"));            
             RecordingFile = Path.Combine(relativePath, "baseRecord.rec");
             SquashTestFile = Path.Combine(relativePath, "squashRecord.rec");
@@ -36,16 +36,8 @@
             Assert.IsFalse(File.Exists(SquashTestFile));
 
 
-
-#if DEBUG
-            var adapter = Vortex.Adapters.Connector.Tc3.Adapter.Tc3ConnectorAdapter.Create(null, 851, false);
-            // ConnectorTests.ConnectorTestsTwinController.LocalizationDirectory = @"C:\MTS\Develop\vts\vortex.builder\_Vortex\out\ConnectorTests\loc\";
-            connector = new ConnectorTests.ConnectorTestsTwinController(adapter);        
-            connector.Connector.ReadWriteCycleDelay = 10;
-            connector.Connector.BuildAndStart();
-#else
-            connector = new PlcTcProberTestsTwinController();
-#endif
+            connector = new PlcTcProberTestsTwinController(Tc3ConnectorAdapter.Create(null, 851, false));
+            connector.Connector.BuildAndStart().ReadWriteCycleDelay = 10;
         }
 
         [Test()]
@@ -75,13 +67,14 @@
         [Test()]
         [Order(200)]
         public void PlaySelectedFramesTest()
-        {
+        {           
             var recorder = new Player<fbInheritanceLevel_5, PlainfbInheritanceLevel_5>(connector.MAIN.InheritanceRw);
             recorder.StartPlay(RecordingFile);
 
             for (int i = 0; i < 254; i++)
             {
                 var frame = recorder.PlayFrame((long)i);
+                connector.MAIN.InheritanceRw.Read();
                 Assert.AreEqual((byte)i, connector.MAIN.InheritanceRw.level_0.BYTE_val.Cyclic, $"Frame: {frame}:{i}");
                 Assert.AreEqual((byte)i, connector.MAIN.InheritanceRw.level_1.BYTE_val.Cyclic, $"Frame: {frame}:{i}");
                 Assert.AreEqual((ushort)(i * 2), connector.MAIN.InheritanceRw.level_2.WORD_val.Cyclic, $"Frame: {frame}:{i}");

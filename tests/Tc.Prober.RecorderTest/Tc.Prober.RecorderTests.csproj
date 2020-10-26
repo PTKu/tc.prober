@@ -14,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Inxton.Vortex.Recorder\Tc.Prober.Recorder.csproj" />
+    <ProjectReference Include="..\..\src\Tc.Prober.Recorder\Tc.Prober.Recorder.csproj" />
     <ProjectReference Include="..\PlcTcProberTestsConnector\PlcTcProberTestsConnector.csproj" />
   </ItemGroup>
 

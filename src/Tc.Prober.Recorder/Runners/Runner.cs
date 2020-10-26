@@ -24,12 +24,18 @@ namespace Tc.Prober.Recorder
             return sf.GetMethod().Name;
         }
 
-        public static string GetAutoName()
+        public static string GetAutoMethodName(int level = 2)
         {
-            return Path.Combine(RecordingsShell, $"{CallerMethodName(2)}.json");
+            return Path.Combine(RecordingsShell, $"{CallerMethodName(level)}.json");
         }
+    
 
-        public static T Run<T>(this object sut, 
+        private static string GetAutoName()
+        {
+            return Path.Combine(RecordingsShell, $"{CallerMethodName(3)}.json");
+        }
+        
+        public static T Run<T>(this IVortexElement sut, 
                                    Func<T> action,
                                    Func<bool> done,                                   
                                    Action openCycle = null,
@@ -38,12 +44,7 @@ namespace Tc.Prober.Recorder
                                    string recordingFileName = null
                                    )
                             
-        {          
-            if(recordingFileName == null)
-            {
-                recordingFileName = Path.Combine(RecordingsShell, CallerMethodName(2));
-            }
-           
+        {                               
             T retVal = default(T);
 
             recorder?.Begin(recordingFileName);

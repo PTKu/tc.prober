@@ -184,6 +184,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void Run&lt;T&gt;(this T sut, Func&lt;T, bool&gt; testMethod)
+
     where T : IVortexObject</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -240,6 +241,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static R Run&lt;T, R&gt;(this T sut, Func&lt;T, R&gt; testMethod, int numberOfRuns)
+
     where T : IVortexObject</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

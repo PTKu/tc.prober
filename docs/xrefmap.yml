@@ -355,19 +355,19 @@ references:
   isSpec: "True"
   fullName: Tc.Prober.Recorder.Runner.CallerMethodName
   nameWithType: Runner.CallerMethodName
-- uid: Tc.Prober.Recorder.Runner.GetAutoName
-  name: GetAutoName()
-  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoName
-  commentId: M:Tc.Prober.Recorder.Runner.GetAutoName
-  fullName: Tc.Prober.Recorder.Runner.GetAutoName()
-  nameWithType: Runner.GetAutoName()
-- uid: Tc.Prober.Recorder.Runner.GetAutoName*
-  name: GetAutoName
-  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoName_
-  commentId: Overload:Tc.Prober.Recorder.Runner.GetAutoName
+- uid: Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
+  name: GetAutoMethodName(Int32)
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoMethodName_System_Int32_
+  commentId: M:Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
+  fullName: Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
+  nameWithType: Runner.GetAutoMethodName(Int32)
+- uid: Tc.Prober.Recorder.Runner.GetAutoMethodName*
+  name: GetAutoMethodName
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoMethodName_
+  commentId: Overload:Tc.Prober.Recorder.Runner.GetAutoMethodName
   isSpec: "True"
-  fullName: Tc.Prober.Recorder.Runner.GetAutoName
-  nameWithType: Runner.GetAutoName
+  fullName: Tc.Prober.Recorder.Runner.GetAutoMethodName
+  nameWithType: Runner.GetAutoMethodName
 - uid: Tc.Prober.Recorder.Runner.RecordingsShell
   name: RecordingsShell
   href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_RecordingsShell
@@ -388,15 +388,15 @@ references:
   isSpec: "True"
   fullName: Tc.Prober.Recorder.Runner.Run
   nameWithType: Runner.Run
-- uid: Tc.Prober.Recorder.Runner.Run``1(System.Object,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
-  name: Run<T>(Object, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
-  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_Run__1_System_Object_System_Func___0__System_Func_System_Boolean__System_Action_System_Action_Tc_Prober_Recorder_IRecorder_System_String_
-  commentId: M:Tc.Prober.Recorder.Runner.Run``1(System.Object,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
-  name.vb: Run(Of T)(Object, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
-  fullName: Tc.Prober.Recorder.Runner.Run<T>(System.Object, System.Func<T>, System.Func<System.Boolean>, System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
-  fullName.vb: Tc.Prober.Recorder.Runner.Run(Of T)(System.Object, System.Func(Of T), System.Func(Of System.Boolean), System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
-  nameWithType: Runner.Run<T>(Object, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
-  nameWithType.vb: Runner.Run(Of T)(Object, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
+- uid: Tc.Prober.Recorder.Runner.Run``1(Vortex.Connector.IVortexElement,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
+  name: Run<T>(IVortexElement, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_Run__1_Vortex_Connector_IVortexElement_System_Func___0__System_Func_System_Boolean__System_Action_System_Action_Tc_Prober_Recorder_IRecorder_System_String_
+  commentId: M:Tc.Prober.Recorder.Runner.Run``1(Vortex.Connector.IVortexElement,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
+  name.vb: Run(Of T)(IVortexElement, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
+  fullName: Tc.Prober.Recorder.Runner.Run<T>(Vortex.Connector.IVortexElement, System.Func<T>, System.Func<System.Boolean>, System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
+  fullName.vb: Tc.Prober.Recorder.Runner.Run(Of T)(Vortex.Connector.IVortexElement, System.Func(Of T), System.Func(Of System.Boolean), System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
+  nameWithType: Runner.Run<T>(IVortexElement, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
+  nameWithType.vb: Runner.Run(Of T)(IVortexElement, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
 - uid: Tc.Prober.Runners
   name: Tc.Prober.Runners
   href: api/Tc.Prober.Runners.html
