@@ -1,0 +1,24 @@
+﻿using System;
+using System.Linq;
+
+
+namespace Tc.Prober.Recorder
+{
+    internal class DummyRecorder : IRecorder
+    {
+        public void Act()
+        {
+
+        }
+
+        public void Begin(string fileName)
+        {
+
+        }
+
+        public void End(string fileName)
+        {
+
+        }
+    }
+}

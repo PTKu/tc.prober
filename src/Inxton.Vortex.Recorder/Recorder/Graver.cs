@@ -5,9 +5,9 @@ using System.Linq;
 using Vortex.Connector;
 
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
-    internal class Graver<T, P> : RecorderBase<T, P>, IRecorder where T : IVortexObject, new() where P : new()
+    internal class Graver<T, P> : RecorderBase<T, P>, IRecorder where T : IVortexObject, new() where P : IPlain, new()
     {
         public Graver(T obj, long minUniqueFrames = 10) : base(obj)
         {

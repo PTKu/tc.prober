@@ -6,8 +6,15 @@
 
   <ItemGroup>
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbBasicRunnerTests.g.cs" Link="_generated\PlcTcProberTests\fbBasicRunnerTests.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_1.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_1.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_2.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_2.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_3.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_3.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_4.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_4.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_5.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_5.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbRootLevelStruct.g.cs" Link="_generated\PlcTcProberTests\fbRootLevelStruct.g.cs" />
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\MAIN.g.cs" Link="_generated\PlcTcProberTests\MAIN.g.cs" />
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\PlcTcProberTests.g.cs" Link="_generated\PlcTcProberTests\PlcTcProberTests.g.cs" />
+    <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\stAllTypes.g.cs" Link="_generated\PlcTcProberTests\stAllTypes.g.cs" />
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\Tests.g.cs" Link="_generated\PlcTcProberTests\Tests.g.cs" />
   </ItemGroup>
 

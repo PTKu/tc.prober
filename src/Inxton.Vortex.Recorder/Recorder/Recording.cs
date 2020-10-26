@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
     public class Recording<P>
     {

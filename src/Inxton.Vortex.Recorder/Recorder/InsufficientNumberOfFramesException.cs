@@ -3,7 +3,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
     public class InsufficientNumberOfFramesException : Exception
     {

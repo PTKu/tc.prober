@@ -1,411 +1,402 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: Inxton.Vortex.Recorder
-  name: Inxton.Vortex.Recorder
-  href: api/Inxton.Vortex.Recorder.html
-  commentId: N:Inxton.Vortex.Recorder
-  fullName: Inxton.Vortex.Recorder
-  nameWithType: Inxton.Vortex.Recorder
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException
+- uid: Tc.Prober.Recorder
+  name: Tc.Prober.Recorder
+  href: api/Tc.Prober.Recorder.html
+  commentId: N:Tc.Prober.Recorder
+  fullName: Tc.Prober.Recorder
+  nameWithType: Tc.Prober.Recorder
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException
   name: InsufficientNumberOfFramesException
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html
-  commentId: T:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html
+  commentId: T:Tc.Prober.Recorder.InsufficientNumberOfFramesException
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException
   nameWithType: InsufficientNumberOfFramesException
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor
   name: InsufficientNumberOfFramesException()
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html#Inxton_Vortex_Recorder_InsufficientNumberOfFramesException__ctor
-  commentId: M:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException()
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html#Tc_Prober_Recorder_InsufficientNumberOfFramesException__ctor
+  commentId: M:Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException()
   nameWithType: InsufficientNumberOfFramesException.InsufficientNumberOfFramesException()
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
   name: InsufficientNumberOfFramesException(SerializationInfo, StreamingContext)
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html#Inxton_Vortex_Recorder_InsufficientNumberOfFramesException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
-  commentId: M:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html#Tc_Prober_Recorder_InsufficientNumberOfFramesException__ctor_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_
+  commentId: M:Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.Runtime.Serialization.SerializationInfo, System.Runtime.Serialization.StreamingContext)
   nameWithType: InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(SerializationInfo, StreamingContext)
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.String)
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.String)
   name: InsufficientNumberOfFramesException(String)
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html#Inxton_Vortex_Recorder_InsufficientNumberOfFramesException__ctor_System_String_
-  commentId: M:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.String)
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.String)
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html#Tc_Prober_Recorder_InsufficientNumberOfFramesException__ctor_System_String_
+  commentId: M:Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.String)
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.String)
   nameWithType: InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(String)
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.String,System.Exception)
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.String,System.Exception)
   name: InsufficientNumberOfFramesException(String, Exception)
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html#Inxton_Vortex_Recorder_InsufficientNumberOfFramesException__ctor_System_String_System_Exception_
-  commentId: M:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor(System.String,System.Exception)
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.String, System.Exception)
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html#Tc_Prober_Recorder_InsufficientNumberOfFramesException__ctor_System_String_System_Exception_
+  commentId: M:Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor(System.String,System.Exception)
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(System.String, System.Exception)
   nameWithType: InsufficientNumberOfFramesException.InsufficientNumberOfFramesException(String, Exception)
-- uid: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor*
+- uid: Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor*
   name: InsufficientNumberOfFramesException
-  href: api/Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.html#Inxton_Vortex_Recorder_InsufficientNumberOfFramesException__ctor_
-  commentId: Overload:Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.#ctor
+  href: api/Tc.Prober.Recorder.InsufficientNumberOfFramesException.html#Tc_Prober_Recorder_InsufficientNumberOfFramesException__ctor_
+  commentId: Overload:Tc.Prober.Recorder.InsufficientNumberOfFramesException.#ctor
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException
+  fullName: Tc.Prober.Recorder.InsufficientNumberOfFramesException.InsufficientNumberOfFramesException
   nameWithType: InsufficientNumberOfFramesException.InsufficientNumberOfFramesException
-- uid: Inxton.Vortex.Recorder.IRecorder
+- uid: Tc.Prober.Recorder.IRecorder
   name: IRecorder
-  href: api/Inxton.Vortex.Recorder.IRecorder.html
-  commentId: T:Inxton.Vortex.Recorder.IRecorder
-  fullName: Inxton.Vortex.Recorder.IRecorder
+  href: api/Tc.Prober.Recorder.IRecorder.html
+  commentId: T:Tc.Prober.Recorder.IRecorder
+  fullName: Tc.Prober.Recorder.IRecorder
   nameWithType: IRecorder
-- uid: Inxton.Vortex.Recorder.IRecorder.Act
+- uid: Tc.Prober.Recorder.IRecorder.Act
   name: Act()
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_Act
-  commentId: M:Inxton.Vortex.Recorder.IRecorder.Act
-  fullName: Inxton.Vortex.Recorder.IRecorder.Act()
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_Act
+  commentId: M:Tc.Prober.Recorder.IRecorder.Act
+  fullName: Tc.Prober.Recorder.IRecorder.Act()
   nameWithType: IRecorder.Act()
-- uid: Inxton.Vortex.Recorder.IRecorder.Act*
+- uid: Tc.Prober.Recorder.IRecorder.Act*
   name: Act
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_Act_
-  commentId: Overload:Inxton.Vortex.Recorder.IRecorder.Act
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_Act_
+  commentId: Overload:Tc.Prober.Recorder.IRecorder.Act
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.IRecorder.Act
+  fullName: Tc.Prober.Recorder.IRecorder.Act
   nameWithType: IRecorder.Act
-- uid: Inxton.Vortex.Recorder.IRecorder.Begin(System.String)
+- uid: Tc.Prober.Recorder.IRecorder.Begin(System.String)
   name: Begin(String)
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_Begin_System_String_
-  commentId: M:Inxton.Vortex.Recorder.IRecorder.Begin(System.String)
-  fullName: Inxton.Vortex.Recorder.IRecorder.Begin(System.String)
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_Begin_System_String_
+  commentId: M:Tc.Prober.Recorder.IRecorder.Begin(System.String)
+  fullName: Tc.Prober.Recorder.IRecorder.Begin(System.String)
   nameWithType: IRecorder.Begin(String)
-- uid: Inxton.Vortex.Recorder.IRecorder.Begin*
+- uid: Tc.Prober.Recorder.IRecorder.Begin*
   name: Begin
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_Begin_
-  commentId: Overload:Inxton.Vortex.Recorder.IRecorder.Begin
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_Begin_
+  commentId: Overload:Tc.Prober.Recorder.IRecorder.Begin
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.IRecorder.Begin
+  fullName: Tc.Prober.Recorder.IRecorder.Begin
   nameWithType: IRecorder.Begin
-- uid: Inxton.Vortex.Recorder.IRecorder.End(System.String)
+- uid: Tc.Prober.Recorder.IRecorder.End(System.String)
   name: End(String)
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_End_System_String_
-  commentId: M:Inxton.Vortex.Recorder.IRecorder.End(System.String)
-  fullName: Inxton.Vortex.Recorder.IRecorder.End(System.String)
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_End_System_String_
+  commentId: M:Tc.Prober.Recorder.IRecorder.End(System.String)
+  fullName: Tc.Prober.Recorder.IRecorder.End(System.String)
   nameWithType: IRecorder.End(String)
-- uid: Inxton.Vortex.Recorder.IRecorder.End*
+- uid: Tc.Prober.Recorder.IRecorder.End*
   name: End
-  href: api/Inxton.Vortex.Recorder.IRecorder.html#Inxton_Vortex_Recorder_IRecorder_End_
-  commentId: Overload:Inxton.Vortex.Recorder.IRecorder.End
+  href: api/Tc.Prober.Recorder.IRecorder.html#Tc_Prober_Recorder_IRecorder_End_
+  commentId: Overload:Tc.Prober.Recorder.IRecorder.End
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.IRecorder.End
+  fullName: Tc.Prober.Recorder.IRecorder.End
   nameWithType: IRecorder.End
-- uid: Inxton.Vortex.Recorder.Recorder`2
+- uid: Tc.Prober.Recorder.Recorder`2
   name: Recorder<T, P>
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html
-  commentId: T:Inxton.Vortex.Recorder.Recorder`2
+  href: api/Tc.Prober.Recorder.Recorder-2.html
+  commentId: T:Tc.Prober.Recorder.Recorder`2
   name.vb: Recorder(Of T, P)
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P)
+  fullName: Tc.Prober.Recorder.Recorder<T, P>
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P)
   nameWithType: Recorder<T, P>
   nameWithType.vb: Recorder(Of T, P)
-- uid: Inxton.Vortex.Recorder.Recorder`2.#ctor(`0,Inxton.Vortex.Recorder.RecorderModeEnum,System.Int64)
+- uid: Tc.Prober.Recorder.Recorder`2.#ctor(`0,Tc.Prober.Recorder.RecorderModeEnum,System.Int64)
   name: Recorder(T, RecorderModeEnum, Int64)
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2__ctor__0_Inxton_Vortex_Recorder_RecorderModeEnum_System_Int64_
-  commentId: M:Inxton.Vortex.Recorder.Recorder`2.#ctor(`0,Inxton.Vortex.Recorder.RecorderModeEnum,System.Int64)
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Recorder(T, Inxton.Vortex.Recorder.RecorderModeEnum, System.Int64)
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Recorder(T, Inxton.Vortex.Recorder.RecorderModeEnum, System.Int64)
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2__ctor__0_Tc_Prober_Recorder_RecorderModeEnum_System_Int64_
+  commentId: M:Tc.Prober.Recorder.Recorder`2.#ctor(`0,Tc.Prober.Recorder.RecorderModeEnum,System.Int64)
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Recorder(T, Tc.Prober.Recorder.RecorderModeEnum, System.Int64)
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Recorder(T, Tc.Prober.Recorder.RecorderModeEnum, System.Int64)
   nameWithType: Recorder<T, P>.Recorder(T, RecorderModeEnum, Int64)
   nameWithType.vb: Recorder(Of T, P).Recorder(T, RecorderModeEnum, Int64)
-- uid: Inxton.Vortex.Recorder.Recorder`2.#ctor*
+- uid: Tc.Prober.Recorder.Recorder`2.#ctor*
   name: Recorder
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2__ctor_
-  commentId: Overload:Inxton.Vortex.Recorder.Recorder`2.#ctor
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2__ctor_
+  commentId: Overload:Tc.Prober.Recorder.Recorder`2.#ctor
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Recorder
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Recorder
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Recorder
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Recorder
   nameWithType: Recorder<T, P>.Recorder
   nameWithType.vb: Recorder(Of T, P).Recorder
-- uid: Inxton.Vortex.Recorder.Recorder`2.Actor
+- uid: Tc.Prober.Recorder.Recorder`2.Actor
   name: Actor
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2_Actor
-  commentId: P:Inxton.Vortex.Recorder.Recorder`2.Actor
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Actor
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Actor
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2_Actor
+  commentId: P:Tc.Prober.Recorder.Recorder`2.Actor
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Actor
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Actor
   nameWithType: Recorder<T, P>.Actor
   nameWithType.vb: Recorder(Of T, P).Actor
-- uid: Inxton.Vortex.Recorder.Recorder`2.Actor*
+- uid: Tc.Prober.Recorder.Recorder`2.Actor*
   name: Actor
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2_Actor_
-  commentId: Overload:Inxton.Vortex.Recorder.Recorder`2.Actor
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2_Actor_
+  commentId: Overload:Tc.Prober.Recorder.Recorder`2.Actor
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Actor
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Actor
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Actor
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Actor
   nameWithType: Recorder<T, P>.Actor
   nameWithType.vb: Recorder(Of T, P).Actor
-- uid: Inxton.Vortex.Recorder.Recorder`2.Mode
+- uid: Tc.Prober.Recorder.Recorder`2.Mode
   name: Mode
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2_Mode
-  commentId: P:Inxton.Vortex.Recorder.Recorder`2.Mode
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Mode
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Mode
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2_Mode
+  commentId: P:Tc.Prober.Recorder.Recorder`2.Mode
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Mode
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Mode
   nameWithType: Recorder<T, P>.Mode
   nameWithType.vb: Recorder(Of T, P).Mode
-- uid: Inxton.Vortex.Recorder.Recorder`2.Mode*
+- uid: Tc.Prober.Recorder.Recorder`2.Mode*
   name: Mode
-  href: api/Inxton.Vortex.Recorder.Recorder-2.html#Inxton_Vortex_Recorder_Recorder_2_Mode_
-  commentId: Overload:Inxton.Vortex.Recorder.Recorder`2.Mode
+  href: api/Tc.Prober.Recorder.Recorder-2.html#Tc_Prober_Recorder_Recorder_2_Mode_
+  commentId: Overload:Tc.Prober.Recorder.Recorder`2.Mode
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recorder<T, P>.Mode
-  fullName.vb: Inxton.Vortex.Recorder.Recorder(Of T, P).Mode
+  fullName: Tc.Prober.Recorder.Recorder<T, P>.Mode
+  fullName.vb: Tc.Prober.Recorder.Recorder(Of T, P).Mode
   nameWithType: Recorder<T, P>.Mode
   nameWithType.vb: Recorder(Of T, P).Mode
-- uid: Inxton.Vortex.Recorder.RecorderModeEnum
+- uid: Tc.Prober.Recorder.RecorderModeEnum
   name: RecorderModeEnum
-  href: api/Inxton.Vortex.Recorder.RecorderModeEnum.html
-  commentId: T:Inxton.Vortex.Recorder.RecorderModeEnum
-  fullName: Inxton.Vortex.Recorder.RecorderModeEnum
+  href: api/Tc.Prober.Recorder.RecorderModeEnum.html
+  commentId: T:Tc.Prober.Recorder.RecorderModeEnum
+  fullName: Tc.Prober.Recorder.RecorderModeEnum
   nameWithType: RecorderModeEnum
-- uid: Inxton.Vortex.Recorder.RecorderModeEnum.Graver
+- uid: Tc.Prober.Recorder.RecorderModeEnum.Graver
   name: Graver
-  href: api/Inxton.Vortex.Recorder.RecorderModeEnum.html#Inxton_Vortex_Recorder_RecorderModeEnum_Graver
-  commentId: F:Inxton.Vortex.Recorder.RecorderModeEnum.Graver
-  fullName: Inxton.Vortex.Recorder.RecorderModeEnum.Graver
+  href: api/Tc.Prober.Recorder.RecorderModeEnum.html#Tc_Prober_Recorder_RecorderModeEnum_Graver
+  commentId: F:Tc.Prober.Recorder.RecorderModeEnum.Graver
+  fullName: Tc.Prober.Recorder.RecorderModeEnum.Graver
   nameWithType: RecorderModeEnum.Graver
-- uid: Inxton.Vortex.Recorder.RecorderModeEnum.None
+- uid: Tc.Prober.Recorder.RecorderModeEnum.None
   name: None
-  href: api/Inxton.Vortex.Recorder.RecorderModeEnum.html#Inxton_Vortex_Recorder_RecorderModeEnum_None
-  commentId: F:Inxton.Vortex.Recorder.RecorderModeEnum.None
-  fullName: Inxton.Vortex.Recorder.RecorderModeEnum.None
+  href: api/Tc.Prober.Recorder.RecorderModeEnum.html#Tc_Prober_Recorder_RecorderModeEnum_None
+  commentId: F:Tc.Prober.Recorder.RecorderModeEnum.None
+  fullName: Tc.Prober.Recorder.RecorderModeEnum.None
   nameWithType: RecorderModeEnum.None
-- uid: Inxton.Vortex.Recorder.RecorderModeEnum.Player
+- uid: Tc.Prober.Recorder.RecorderModeEnum.Player
   name: Player
-  href: api/Inxton.Vortex.Recorder.RecorderModeEnum.html#Inxton_Vortex_Recorder_RecorderModeEnum_Player
-  commentId: F:Inxton.Vortex.Recorder.RecorderModeEnum.Player
-  fullName: Inxton.Vortex.Recorder.RecorderModeEnum.Player
+  href: api/Tc.Prober.Recorder.RecorderModeEnum.html#Tc_Prober_Recorder_RecorderModeEnum_Player
+  commentId: F:Tc.Prober.Recorder.RecorderModeEnum.Player
+  fullName: Tc.Prober.Recorder.RecorderModeEnum.Player
   nameWithType: RecorderModeEnum.Player
-- uid: Inxton.Vortex.Recorder.RecordFrame`1
+- uid: Tc.Prober.Recorder.RecordFrame`1
   name: RecordFrame<P>
-  href: api/Inxton.Vortex.Recorder.RecordFrame-1.html
-  commentId: T:Inxton.Vortex.Recorder.RecordFrame`1
+  href: api/Tc.Prober.Recorder.RecordFrame-1.html
+  commentId: T:Tc.Prober.Recorder.RecordFrame`1
   name.vb: RecordFrame(Of P)
-  fullName: Inxton.Vortex.Recorder.RecordFrame<P>
-  fullName.vb: Inxton.Vortex.Recorder.RecordFrame(Of P)
+  fullName: Tc.Prober.Recorder.RecordFrame<P>
+  fullName.vb: Tc.Prober.Recorder.RecordFrame(Of P)
   nameWithType: RecordFrame<P>
   nameWithType.vb: RecordFrame(Of P)
-- uid: Inxton.Vortex.Recorder.RecordFrame`1.Object
+- uid: Tc.Prober.Recorder.RecordFrame`1.Object
   name: Object
-  href: api/Inxton.Vortex.Recorder.RecordFrame-1.html#Inxton_Vortex_Recorder_RecordFrame_1_Object
-  commentId: P:Inxton.Vortex.Recorder.RecordFrame`1.Object
-  fullName: Inxton.Vortex.Recorder.RecordFrame<P>.Object
-  fullName.vb: Inxton.Vortex.Recorder.RecordFrame(Of P).Object
+  href: api/Tc.Prober.Recorder.RecordFrame-1.html#Tc_Prober_Recorder_RecordFrame_1_Object
+  commentId: P:Tc.Prober.Recorder.RecordFrame`1.Object
+  fullName: Tc.Prober.Recorder.RecordFrame<P>.Object
+  fullName.vb: Tc.Prober.Recorder.RecordFrame(Of P).Object
   nameWithType: RecordFrame<P>.Object
   nameWithType.vb: RecordFrame(Of P).Object
-- uid: Inxton.Vortex.Recorder.RecordFrame`1.Object*
+- uid: Tc.Prober.Recorder.RecordFrame`1.Object*
   name: Object
-  href: api/Inxton.Vortex.Recorder.RecordFrame-1.html#Inxton_Vortex_Recorder_RecordFrame_1_Object_
-  commentId: Overload:Inxton.Vortex.Recorder.RecordFrame`1.Object
+  href: api/Tc.Prober.Recorder.RecordFrame-1.html#Tc_Prober_Recorder_RecordFrame_1_Object_
+  commentId: Overload:Tc.Prober.Recorder.RecordFrame`1.Object
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.RecordFrame<P>.Object
-  fullName.vb: Inxton.Vortex.Recorder.RecordFrame(Of P).Object
+  fullName: Tc.Prober.Recorder.RecordFrame<P>.Object
+  fullName.vb: Tc.Prober.Recorder.RecordFrame(Of P).Object
   nameWithType: RecordFrame<P>.Object
   nameWithType.vb: RecordFrame(Of P).Object
-- uid: Inxton.Vortex.Recorder.RecordFrame`1.Stamp
+- uid: Tc.Prober.Recorder.RecordFrame`1.Stamp
   name: Stamp
-  href: api/Inxton.Vortex.Recorder.RecordFrame-1.html#Inxton_Vortex_Recorder_RecordFrame_1_Stamp
-  commentId: P:Inxton.Vortex.Recorder.RecordFrame`1.Stamp
-  fullName: Inxton.Vortex.Recorder.RecordFrame<P>.Stamp
-  fullName.vb: Inxton.Vortex.Recorder.RecordFrame(Of P).Stamp
+  href: api/Tc.Prober.Recorder.RecordFrame-1.html#Tc_Prober_Recorder_RecordFrame_1_Stamp
+  commentId: P:Tc.Prober.Recorder.RecordFrame`1.Stamp
+  fullName: Tc.Prober.Recorder.RecordFrame<P>.Stamp
+  fullName.vb: Tc.Prober.Recorder.RecordFrame(Of P).Stamp
   nameWithType: RecordFrame<P>.Stamp
   nameWithType.vb: RecordFrame(Of P).Stamp
-- uid: Inxton.Vortex.Recorder.RecordFrame`1.Stamp*
+- uid: Tc.Prober.Recorder.RecordFrame`1.Stamp*
   name: Stamp
-  href: api/Inxton.Vortex.Recorder.RecordFrame-1.html#Inxton_Vortex_Recorder_RecordFrame_1_Stamp_
-  commentId: Overload:Inxton.Vortex.Recorder.RecordFrame`1.Stamp
+  href: api/Tc.Prober.Recorder.RecordFrame-1.html#Tc_Prober_Recorder_RecordFrame_1_Stamp_
+  commentId: Overload:Tc.Prober.Recorder.RecordFrame`1.Stamp
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.RecordFrame<P>.Stamp
-  fullName.vb: Inxton.Vortex.Recorder.RecordFrame(Of P).Stamp
+  fullName: Tc.Prober.Recorder.RecordFrame<P>.Stamp
+  fullName.vb: Tc.Prober.Recorder.RecordFrame(Of P).Stamp
   nameWithType: RecordFrame<P>.Stamp
   nameWithType.vb: RecordFrame(Of P).Stamp
-- uid: Inxton.Vortex.Recorder.Recording`1
+- uid: Tc.Prober.Recorder.Recording`1
   name: Recording<P>
-  href: api/Inxton.Vortex.Recorder.Recording-1.html
-  commentId: T:Inxton.Vortex.Recorder.Recording`1
+  href: api/Tc.Prober.Recorder.Recording-1.html
+  commentId: T:Tc.Prober.Recorder.Recording`1
   name.vb: Recording(Of P)
-  fullName: Inxton.Vortex.Recorder.Recording<P>
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P)
+  fullName: Tc.Prober.Recorder.Recording<P>
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P)
   nameWithType: Recording<P>
   nameWithType.vb: Recording(Of P)
-- uid: Inxton.Vortex.Recorder.Recording`1.AddRecordFrame(Inxton.Vortex.Recorder.RecordFrame{`0})
+- uid: Tc.Prober.Recorder.Recording`1.AddRecordFrame(Tc.Prober.Recorder.RecordFrame{`0})
   name: AddRecordFrame(RecordFrame<P>)
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_AddRecordFrame_Inxton_Vortex_Recorder_RecordFrame__0__
-  commentId: M:Inxton.Vortex.Recorder.Recording`1.AddRecordFrame(Inxton.Vortex.Recorder.RecordFrame{`0})
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_AddRecordFrame_Tc_Prober_Recorder_RecordFrame__0__
+  commentId: M:Tc.Prober.Recorder.Recording`1.AddRecordFrame(Tc.Prober.Recorder.RecordFrame{`0})
   name.vb: AddRecordFrame(RecordFrame(Of P))
-  fullName: Inxton.Vortex.Recorder.Recording<P>.AddRecordFrame(Inxton.Vortex.Recorder.RecordFrame<P>)
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).AddRecordFrame(Inxton.Vortex.Recorder.RecordFrame(Of P))
+  fullName: Tc.Prober.Recorder.Recording<P>.AddRecordFrame(Tc.Prober.Recorder.RecordFrame<P>)
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).AddRecordFrame(Tc.Prober.Recorder.RecordFrame(Of P))
   nameWithType: Recording<P>.AddRecordFrame(RecordFrame<P>)
   nameWithType.vb: Recording(Of P).AddRecordFrame(RecordFrame(Of P))
-- uid: Inxton.Vortex.Recorder.Recording`1.AddRecordFrame*
+- uid: Tc.Prober.Recorder.Recording`1.AddRecordFrame*
   name: AddRecordFrame
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_AddRecordFrame_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.AddRecordFrame
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_AddRecordFrame_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.AddRecordFrame
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.AddRecordFrame
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).AddRecordFrame
+  fullName: Tc.Prober.Recorder.Recording<P>.AddRecordFrame
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).AddRecordFrame
   nameWithType: Recording<P>.AddRecordFrame
   nameWithType.vb: Recording(Of P).AddRecordFrame
-- uid: Inxton.Vortex.Recorder.Recording`1.CurrentFramePosition
+- uid: Tc.Prober.Recorder.Recording`1.CurrentFramePosition
   name: CurrentFramePosition
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_CurrentFramePosition
-  commentId: P:Inxton.Vortex.Recorder.Recording`1.CurrentFramePosition
-  fullName: Inxton.Vortex.Recorder.Recording<P>.CurrentFramePosition
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).CurrentFramePosition
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_CurrentFramePosition
+  commentId: P:Tc.Prober.Recorder.Recording`1.CurrentFramePosition
+  fullName: Tc.Prober.Recorder.Recording<P>.CurrentFramePosition
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).CurrentFramePosition
   nameWithType: Recording<P>.CurrentFramePosition
   nameWithType.vb: Recording(Of P).CurrentFramePosition
-- uid: Inxton.Vortex.Recorder.Recording`1.CurrentFramePosition*
+- uid: Tc.Prober.Recorder.Recording`1.CurrentFramePosition*
   name: CurrentFramePosition
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_CurrentFramePosition_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.CurrentFramePosition
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_CurrentFramePosition_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.CurrentFramePosition
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.CurrentFramePosition
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).CurrentFramePosition
+  fullName: Tc.Prober.Recorder.Recording<P>.CurrentFramePosition
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).CurrentFramePosition
   nameWithType: Recording<P>.CurrentFramePosition
   nameWithType.vb: Recording(Of P).CurrentFramePosition
-- uid: Inxton.Vortex.Recorder.Recording`1.Frames
+- uid: Tc.Prober.Recorder.Recording`1.Frames
   name: Frames
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_Frames
-  commentId: P:Inxton.Vortex.Recorder.Recording`1.Frames
-  fullName: Inxton.Vortex.Recorder.Recording<P>.Frames
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).Frames
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_Frames
+  commentId: P:Tc.Prober.Recorder.Recording`1.Frames
+  fullName: Tc.Prober.Recorder.Recording<P>.Frames
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).Frames
   nameWithType: Recording<P>.Frames
   nameWithType.vb: Recording(Of P).Frames
-- uid: Inxton.Vortex.Recorder.Recording`1.Frames*
+- uid: Tc.Prober.Recorder.Recording`1.Frames*
   name: Frames
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_Frames_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.Frames
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_Frames_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.Frames
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.Frames
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).Frames
+  fullName: Tc.Prober.Recorder.Recording<P>.Frames
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).Frames
   nameWithType: Recording<P>.Frames
   nameWithType.vb: Recording(Of P).Frames
-- uid: Inxton.Vortex.Recorder.Recording`1.GoTop
+- uid: Tc.Prober.Recorder.Recording`1.GoTop
   name: GoTop()
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_GoTop
-  commentId: M:Inxton.Vortex.Recorder.Recording`1.GoTop
-  fullName: Inxton.Vortex.Recorder.Recording<P>.GoTop()
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).GoTop()
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_GoTop
+  commentId: M:Tc.Prober.Recorder.Recording`1.GoTop
+  fullName: Tc.Prober.Recorder.Recording<P>.GoTop()
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).GoTop()
   nameWithType: Recording<P>.GoTop()
   nameWithType.vb: Recording(Of P).GoTop()
-- uid: Inxton.Vortex.Recorder.Recording`1.GoTop*
+- uid: Tc.Prober.Recorder.Recording`1.GoTop*
   name: GoTop
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_GoTop_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.GoTop
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_GoTop_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.GoTop
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.GoTop
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).GoTop
+  fullName: Tc.Prober.Recorder.Recording<P>.GoTop
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).GoTop
   nameWithType: Recording<P>.GoTop
   nameWithType.vb: Recording(Of P).GoTop
-- uid: Inxton.Vortex.Recorder.Recording`1.ReadFrame
+- uid: Tc.Prober.Recorder.Recording`1.ReadFrame
   name: ReadFrame()
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_ReadFrame
-  commentId: M:Inxton.Vortex.Recorder.Recording`1.ReadFrame
-  fullName: Inxton.Vortex.Recorder.Recording<P>.ReadFrame()
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).ReadFrame()
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_ReadFrame
+  commentId: M:Tc.Prober.Recorder.Recording`1.ReadFrame
+  fullName: Tc.Prober.Recorder.Recording<P>.ReadFrame()
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).ReadFrame()
   nameWithType: Recording<P>.ReadFrame()
   nameWithType.vb: Recording(Of P).ReadFrame()
-- uid: Inxton.Vortex.Recorder.Recording`1.ReadFrame(System.Int64)
+- uid: Tc.Prober.Recorder.Recording`1.ReadFrame(System.Int64)
   name: ReadFrame(Int64)
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_ReadFrame_System_Int64_
-  commentId: M:Inxton.Vortex.Recorder.Recording`1.ReadFrame(System.Int64)
-  fullName: Inxton.Vortex.Recorder.Recording<P>.ReadFrame(System.Int64)
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).ReadFrame(System.Int64)
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_ReadFrame_System_Int64_
+  commentId: M:Tc.Prober.Recorder.Recording`1.ReadFrame(System.Int64)
+  fullName: Tc.Prober.Recorder.Recording<P>.ReadFrame(System.Int64)
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).ReadFrame(System.Int64)
   nameWithType: Recording<P>.ReadFrame(Int64)
   nameWithType.vb: Recording(Of P).ReadFrame(Int64)
-- uid: Inxton.Vortex.Recorder.Recording`1.ReadFrame*
+- uid: Tc.Prober.Recorder.Recording`1.ReadFrame*
   name: ReadFrame
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_ReadFrame_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.ReadFrame
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_ReadFrame_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.ReadFrame
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.ReadFrame
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).ReadFrame
+  fullName: Tc.Prober.Recorder.Recording<P>.ReadFrame
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).ReadFrame
   nameWithType: Recording<P>.ReadFrame
   nameWithType.vb: Recording(Of P).ReadFrame
-- uid: Inxton.Vortex.Recorder.Recording`1.StartRecording
+- uid: Tc.Prober.Recorder.Recording`1.StartRecording
   name: StartRecording()
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_StartRecording
-  commentId: M:Inxton.Vortex.Recorder.Recording`1.StartRecording
-  fullName: Inxton.Vortex.Recorder.Recording<P>.StartRecording()
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).StartRecording()
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_StartRecording
+  commentId: M:Tc.Prober.Recorder.Recording`1.StartRecording
+  fullName: Tc.Prober.Recorder.Recording<P>.StartRecording()
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).StartRecording()
   nameWithType: Recording<P>.StartRecording()
   nameWithType.vb: Recording(Of P).StartRecording()
-- uid: Inxton.Vortex.Recorder.Recording`1.StartRecording*
+- uid: Tc.Prober.Recorder.Recording`1.StartRecording*
   name: StartRecording
-  href: api/Inxton.Vortex.Recorder.Recording-1.html#Inxton_Vortex_Recorder_Recording_1_StartRecording_
-  commentId: Overload:Inxton.Vortex.Recorder.Recording`1.StartRecording
+  href: api/Tc.Prober.Recorder.Recording-1.html#Tc_Prober_Recorder_Recording_1_StartRecording_
+  commentId: Overload:Tc.Prober.Recorder.Recording`1.StartRecording
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Recording<P>.StartRecording
-  fullName.vb: Inxton.Vortex.Recorder.Recording(Of P).StartRecording
+  fullName: Tc.Prober.Recorder.Recording<P>.StartRecording
+  fullName.vb: Tc.Prober.Recorder.Recording(Of P).StartRecording
   nameWithType: Recording<P>.StartRecording
   nameWithType.vb: Recording(Of P).StartRecording
-- uid: Inxton.Vortex.Recorder.Runner
+- uid: Tc.Prober.Recorder.Runner
   name: Runner
-  href: api/Inxton.Vortex.Recorder.Runner.html
-  commentId: T:Inxton.Vortex.Recorder.Runner
-  fullName: Inxton.Vortex.Recorder.Runner
+  href: api/Tc.Prober.Recorder.Runner.html
+  commentId: T:Tc.Prober.Recorder.Runner
+  fullName: Tc.Prober.Recorder.Runner
   nameWithType: Runner
-- uid: Inxton.Vortex.Recorder.Runner.CallerMethodName(System.Int32)
+- uid: Tc.Prober.Recorder.Runner.CallerMethodName(System.Int32)
   name: CallerMethodName(Int32)
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_CallerMethodName_System_Int32_
-  commentId: M:Inxton.Vortex.Recorder.Runner.CallerMethodName(System.Int32)
-  fullName: Inxton.Vortex.Recorder.Runner.CallerMethodName(System.Int32)
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_CallerMethodName_System_Int32_
+  commentId: M:Tc.Prober.Recorder.Runner.CallerMethodName(System.Int32)
+  fullName: Tc.Prober.Recorder.Runner.CallerMethodName(System.Int32)
   nameWithType: Runner.CallerMethodName(Int32)
-- uid: Inxton.Vortex.Recorder.Runner.CallerMethodName*
+- uid: Tc.Prober.Recorder.Runner.CallerMethodName*
   name: CallerMethodName
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_CallerMethodName_
-  commentId: Overload:Inxton.Vortex.Recorder.Runner.CallerMethodName
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_CallerMethodName_
+  commentId: Overload:Tc.Prober.Recorder.Runner.CallerMethodName
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Runner.CallerMethodName
+  fullName: Tc.Prober.Recorder.Runner.CallerMethodName
   nameWithType: Runner.CallerMethodName
-- uid: Inxton.Vortex.Recorder.Runner.GetAutoName
+- uid: Tc.Prober.Recorder.Runner.GetAutoName
   name: GetAutoName()
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_GetAutoName
-  commentId: M:Inxton.Vortex.Recorder.Runner.GetAutoName
-  fullName: Inxton.Vortex.Recorder.Runner.GetAutoName()
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoName
+  commentId: M:Tc.Prober.Recorder.Runner.GetAutoName
+  fullName: Tc.Prober.Recorder.Runner.GetAutoName()
   nameWithType: Runner.GetAutoName()
-- uid: Inxton.Vortex.Recorder.Runner.GetAutoName*
+- uid: Tc.Prober.Recorder.Runner.GetAutoName*
   name: GetAutoName
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_GetAutoName_
-  commentId: Overload:Inxton.Vortex.Recorder.Runner.GetAutoName
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoName_
+  commentId: Overload:Tc.Prober.Recorder.Runner.GetAutoName
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Runner.GetAutoName
+  fullName: Tc.Prober.Recorder.Runner.GetAutoName
   nameWithType: Runner.GetAutoName
-- uid: Inxton.Vortex.Recorder.Runner.RecordingsShell
+- uid: Tc.Prober.Recorder.Runner.RecordingsShell
   name: RecordingsShell
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_RecordingsShell
-  commentId: P:Inxton.Vortex.Recorder.Runner.RecordingsShell
-  fullName: Inxton.Vortex.Recorder.Runner.RecordingsShell
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_RecordingsShell
+  commentId: P:Tc.Prober.Recorder.Runner.RecordingsShell
+  fullName: Tc.Prober.Recorder.Runner.RecordingsShell
   nameWithType: Runner.RecordingsShell
-- uid: Inxton.Vortex.Recorder.Runner.RecordingsShell*
+- uid: Tc.Prober.Recorder.Runner.RecordingsShell*
   name: RecordingsShell
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_RecordingsShell_
-  commentId: Overload:Inxton.Vortex.Recorder.Runner.RecordingsShell
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_RecordingsShell_
+  commentId: Overload:Tc.Prober.Recorder.Runner.RecordingsShell
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Runner.RecordingsShell
+  fullName: Tc.Prober.Recorder.Runner.RecordingsShell
   nameWithType: Runner.RecordingsShell
-- uid: Inxton.Vortex.Recorder.Runner.Run*
+- uid: Tc.Prober.Recorder.Runner.Run*
   name: Run
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_Run_
-  commentId: Overload:Inxton.Vortex.Recorder.Runner.Run
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_Run_
+  commentId: Overload:Tc.Prober.Recorder.Runner.Run
   isSpec: "True"
-  fullName: Inxton.Vortex.Recorder.Runner.Run
+  fullName: Tc.Prober.Recorder.Runner.Run
   nameWithType: Runner.Run
-- uid: Inxton.Vortex.Recorder.Runner.Run``1(System.Func{``0},System.Func{System.Boolean},System.Action,System.Action)
-  name: Run<T>(Func<T>, Func<Boolean>, Action, Action)
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_Run__1_System_Func___0__System_Func_System_Boolean__System_Action_System_Action_
-  commentId: M:Inxton.Vortex.Recorder.Runner.Run``1(System.Func{``0},System.Func{System.Boolean},System.Action,System.Action)
-  name.vb: Run(Of T)(Func(Of T), Func(Of Boolean), Action, Action)
-  fullName: Inxton.Vortex.Recorder.Runner.Run<T>(System.Func<T>, System.Func<System.Boolean>, System.Action, System.Action)
-  fullName.vb: Inxton.Vortex.Recorder.Runner.Run(Of T)(System.Func(Of T), System.Func(Of System.Boolean), System.Action, System.Action)
-  nameWithType: Runner.Run<T>(Func<T>, Func<Boolean>, Action, Action)
-  nameWithType.vb: Runner.Run(Of T)(Func(Of T), Func(Of Boolean), Action, Action)
-- uid: Inxton.Vortex.Recorder.Runner.Run``1(System.Func{``0},System.Func{System.Boolean},System.String,System.Action,System.Action,Inxton.Vortex.Recorder.IRecorder)
-  name: Run<T>(Func<T>, Func<Boolean>, String, Action, Action, IRecorder)
-  href: api/Inxton.Vortex.Recorder.Runner.html#Inxton_Vortex_Recorder_Runner_Run__1_System_Func___0__System_Func_System_Boolean__System_String_System_Action_System_Action_Inxton_Vortex_Recorder_IRecorder_
-  commentId: M:Inxton.Vortex.Recorder.Runner.Run``1(System.Func{``0},System.Func{System.Boolean},System.String,System.Action,System.Action,Inxton.Vortex.Recorder.IRecorder)
-  name.vb: Run(Of T)(Func(Of T), Func(Of Boolean), String, Action, Action, IRecorder)
-  fullName: Inxton.Vortex.Recorder.Runner.Run<T>(System.Func<T>, System.Func<System.Boolean>, System.String, System.Action, System.Action, Inxton.Vortex.Recorder.IRecorder)
-  fullName.vb: Inxton.Vortex.Recorder.Runner.Run(Of T)(System.Func(Of T), System.Func(Of System.Boolean), System.String, System.Action, System.Action, Inxton.Vortex.Recorder.IRecorder)
-  nameWithType: Runner.Run<T>(Func<T>, Func<Boolean>, String, Action, Action, IRecorder)
-  nameWithType.vb: Runner.Run(Of T)(Func(Of T), Func(Of Boolean), String, Action, Action, IRecorder)
+- uid: Tc.Prober.Recorder.Runner.Run``1(System.Object,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
+  name: Run<T>(Object, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_Run__1_System_Object_System_Func___0__System_Func_System_Boolean__System_Action_System_Action_Tc_Prober_Recorder_IRecorder_System_String_
+  commentId: M:Tc.Prober.Recorder.Runner.Run``1(System.Object,System.Func{``0},System.Func{System.Boolean},System.Action,System.Action,Tc.Prober.Recorder.IRecorder,System.String)
+  name.vb: Run(Of T)(Object, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
+  fullName: Tc.Prober.Recorder.Runner.Run<T>(System.Object, System.Func<T>, System.Func<System.Boolean>, System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
+  fullName.vb: Tc.Prober.Recorder.Runner.Run(Of T)(System.Object, System.Func(Of T), System.Func(Of System.Boolean), System.Action, System.Action, Tc.Prober.Recorder.IRecorder, System.String)
+  nameWithType: Runner.Run<T>(Object, Func<T>, Func<Boolean>, Action, Action, IRecorder, String)
+  nameWithType.vb: Runner.Run(Of T)(Object, Func(Of T), Func(Of Boolean), Action, Action, IRecorder, String)
 - uid: Tc.Prober.Runners
   name: Tc.Prober.Runners
   href: api/Tc.Prober.Runners.html

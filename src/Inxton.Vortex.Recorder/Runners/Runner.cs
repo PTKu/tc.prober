@@ -9,27 +9,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Vortex.Connector;
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
-    public class Runner
-    {
-        public T Run<T>(Func<T> action,
-                            Func<bool> done,
-                            Action openCycle = null,
-                            Action closeCycle = null)                            
-        {
-            T retVal = default(T);
-            
-            while (done())
-            {                
-                openCycle?.Invoke();        
-                retVal = action();                
-                closeCycle?.Invoke();
-            }
-
-            return retVal;
-        }
-
+    public static class Runner
+    {       
         public static string RecordingsShell { get; set; }
 
         [MethodImpl(MethodImplOptions.NoInlining)]
@@ -46,15 +29,21 @@ namespace Inxton.Vortex.Recorder
             return Path.Combine(RecordingsShell, $"{CallerMethodName(2)}.json");
         }
 
-        public T Run<T>(Func<T> action,
-                            Func<bool> done,
-                            string recordingFileName,
-                            Action openCycle = null,
-                            Action closeCycle = null,
-                            IRecorder recorder = null
-                            )
+        public static T Run<T>(this object sut, 
+                                   Func<T> action,
+                                   Func<bool> done,                                   
+                                   Action openCycle = null,
+                                   Action closeCycle = null,                                   
+                                   IRecorder recorder = null,
+                                   string recordingFileName = null
+                                   )
                             
         {          
+            if(recordingFileName == null)
+            {
+                recordingFileName = Path.Combine(RecordingsShell, CallerMethodName(2));
+            }
+           
             T retVal = default(T);
 
             recorder?.Begin(recordingFileName);

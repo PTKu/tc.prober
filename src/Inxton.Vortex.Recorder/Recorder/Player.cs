@@ -4,9 +4,9 @@ using System.Linq;
 using Vortex.Connector;
 
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
-    internal class Player<T, P> : RecorderBase<T, P>, IRecorder where T : IVortexObject, new() where P : new()
+    internal class Player<T, P> : RecorderBase<T, P>, IRecorder where T : IVortexObject, new() where P : IPlain, new()
     {
         public Player(T obj) : base(obj)
         {

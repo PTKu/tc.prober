@@ -9,9 +9,9 @@ using System.Threading.Tasks;
 using Vortex.Connector;
 
 
-namespace Inxton.Vortex.Recorder
+namespace Tc.Prober.Recorder
 {
-    internal class RecorderBase<T, P> where T : IVortexObject, new() where P : new()
+    internal class RecorderBase<T, P> where T : IVortexObject, new() where P : IPlain, new()
     {
         public RecorderBase(T obj)
         {
@@ -121,69 +121,5 @@ namespace Inxton.Vortex.Recorder
             get;
             set;
         } = new Recording<P>();        
-    }
-    internal class Dummy : IRecorder
-    {
-        public void Act()
-        {
-            
-        }
-
-        public void Begin(string fileName)
-        {
-            
-        }
-
-        public void End(string fileName)
-        {
-            
-        }
-    }
-
-    public interface IRecorder
-    {
-        void Begin(string fileName);
-        void Act();
-        void End(string fileName);
-    }
-
-
-    public enum RecorderModeEnum
-    {
-        None,
-        Player,
-        Graver
-    }
-
-
-    public class Recorder<T,P> where T : IVortexObject, new() where P : new()
-    {     
-        public Recorder(T obj, RecorderModeEnum mode, long minUniqueFrames = 10)
-        {
-            this.Mode = mode;
-
-            switch (mode)
-            {
-                case RecorderModeEnum.None:
-                    Actor = new Dummy();
-                    break;
-                case RecorderModeEnum.Player:
-                    Actor = new Player<T, P>(obj);
-                    break;
-                case RecorderModeEnum.Graver:
-                    Actor = new Graver<T, P>(obj, minUniqueFrames);
-                    break;          
-            }                        
-        }
-
-        public RecorderModeEnum Mode
-        {
-            get;           
-        }
-            
-        public IRecorder Actor
-        {
-            get;            
-        }
     }
 }
