@@ -355,19 +355,19 @@ references:
   isSpec: "True"
   fullName: Tc.Prober.Recorder.Runner.CallerMethodName
   nameWithType: Runner.CallerMethodName
-- uid: Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
-  name: GetAutoMethodName(Int32)
-  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoMethodName_System_Int32_
-  commentId: M:Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
-  fullName: Tc.Prober.Recorder.Runner.GetAutoMethodName(System.Int32)
-  nameWithType: Runner.GetAutoMethodName(Int32)
-- uid: Tc.Prober.Recorder.Runner.GetAutoMethodName*
-  name: GetAutoMethodName
-  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetAutoMethodName_
-  commentId: Overload:Tc.Prober.Recorder.Runner.GetAutoMethodName
+- uid: Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName(System.Int32)
+  name: GetRecordingFilePathWithMethodName(Int32)
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetRecordingFilePathWithMethodName_System_Int32_
+  commentId: M:Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName(System.Int32)
+  fullName: Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName(System.Int32)
+  nameWithType: Runner.GetRecordingFilePathWithMethodName(Int32)
+- uid: Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName*
+  name: GetRecordingFilePathWithMethodName
+  href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_GetRecordingFilePathWithMethodName_
+  commentId: Overload:Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName
   isSpec: "True"
-  fullName: Tc.Prober.Recorder.Runner.GetAutoMethodName
-  nameWithType: Runner.GetAutoMethodName
+  fullName: Tc.Prober.Recorder.Runner.GetRecordingFilePathWithMethodName
+  nameWithType: Runner.GetRecordingFilePathWithMethodName
 - uid: Tc.Prober.Recorder.Runner.RecordingsShell
   name: RecordingsShell
   href: api/Tc.Prober.Recorder.Runner.html#Tc_Prober_Recorder_Runner_RecordingsShell

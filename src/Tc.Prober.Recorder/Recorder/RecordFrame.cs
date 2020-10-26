@@ -1,10 +1,8 @@
-﻿using System;
-using System.Linq;
-
-
-namespace Tc.Prober.Recorder
+﻿namespace Tc.Prober.Recorder
 {
-    public class RecordFrame<P>
+    using Vortex.Connector;
+
+    public class RecordFrame<P> where P : IPlain
     {
         public long Stamp { get; set; }
         public P Object { get; set; }

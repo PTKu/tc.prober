@@ -20,11 +20,11 @@ METHOD ResetCounter : UINT
     </Method>
     <Method Name="RunWithRecorder" Id="{e06617b6-3fea-491c-879a-664266fc030e}">
       <Declaration><![CDATA[{attribute 'TcRpcEnable'}
-METHOD RunWithRecorder : UINT
+METHOD RunWithRecorder : INT
 
 ]]></Declaration>
       <Implementation>
-        <ST><![CDATA[_recorder.counter := _recorder.counter + 1;]]></ST>
+        <ST><![CDATA[RunWithRecorder := _recorder.counter;]]></ST>
       </Implementation>
     </Method>
     <LineIds Name="fbRecorderRunnerTests">

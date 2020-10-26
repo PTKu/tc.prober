@@ -1,10 +1,8 @@
-﻿using System;
-using System.Linq;
-using System.Runtime.Serialization;
-
-
-namespace Tc.Prober.Recorder
+﻿namespace Tc.Prober.Recorder
 {
+    using System;
+    using System.Runtime.Serialization;
+
     public class InsufficientNumberOfFramesException : Exception
     {
         public InsufficientNumberOfFramesException()

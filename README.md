@@ -69,10 +69,72 @@ public void basic_runner_tests_run_count(ushort expected)
 }
 ~~~
 
+Testing with recording
+
+~~~ C#
+public void RecordAndReplayTest()
+        {
+            var sut = connector.Tests._recorderRunnerTests;
+            IRecorder actor;
+
+            // We run with recording
+
+            //-- Arrange
+            sut._recorder.counter.Synchron = 0;
+            var count = 0;
+
+            // Actor is recorder-graver
+            actor = new Recorder.Recorder<stRecorder, PlainstRecorder>(sut._recorder, RecorderModeEnum.Graver).Actor;
+
+            sut.Run(() => sut.RunWithRecorder(), // Actual testing method.
+                    () =>
+                    {                        
+                        Assert.AreEqual(count++, sut._recorder.counter.Synchron);
+                        sut._recorder.counter.Synchron++;        // this line changes the state of plc variable for simulation                       
+                        return sut._recorder.counter.Synchron > 100;
+                    },
+                    null,
+                    null,
+                    actor,
+                    Path.Combine(Runner.RecordingsShell, $"{nameof(RecordAndReplayTest)}.json")
+                    );
+
+
+            // We run the same code with re-play. 
+
+            // Actor is player
+            actor = new Recorder.Recorder<stRecorder, PlainstRecorder>(sut._recorder, RecorderModeEnum.Player).Actor;
+
+            //-- Arrange
+            sut._recorder.counter.Synchron = 0;
+            count = 0;
+
+
+            sut.Run(() => sut.RunWithRecorder(), // Actual testing method.
+                   () =>
+                   {
+                       Assert.AreEqual(count++, sut._recorder.counter.Synchron);
+                       // sut._recorder.counter.Synchron++;        // this line changes the state of plc variable for simulation commented out in replay.                      
+                        return sut._recorder.counter.Synchron > 100;
+                   },
+                   null,
+                   null,
+                   actor,
+                   Path.Combine(Runner.RecordingsShell, $"{nameof(RecordAndReplayTest)}.json")
+                   );
+
+        }
+~~~
+
 ## Assumptions
 
 - It is possible to test single units of the plc program without running inside hard-real-time task of the plc system.
 - The cyclical or event-driven engine can be managed from a non-real-time environment.
+
+## Advantages
+
+- Testing method is in control of the cycle execution. It allows create assertion in single cycles.
+- Ability to record the state of the plc structure for later reconstruction of hardware behavior. This is particularly useful when the hardware component are available for testing for limited time.
 
 ## Limitations
 

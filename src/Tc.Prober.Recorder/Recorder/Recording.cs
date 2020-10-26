@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-
-
 namespace Tc.Prober.Recorder
 {
-    public class Recording<P>
-    {
+    using Vortex.Connector;
 
+    public class Recording<P> where P : IPlain
+    {
         public void StartRecording()
         {
             CurrentFramePosition = 0;
             Frames.Clear();
         }
-
         public void GoTop()
         {
             CurrentFramePosition = 0;
@@ -47,7 +45,6 @@ namespace Tc.Prober.Recorder
             lastFrameSector = closestFrame == null ? -1 : closestFrame.Stamp;
             return frame;
         }
-
 
         public IList<RecordFrame<P>> Frames
         {

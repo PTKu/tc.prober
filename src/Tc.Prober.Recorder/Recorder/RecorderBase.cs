@@ -1,16 +1,11 @@
-﻿using Newtonsoft.Json;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Runtime.Serialization;
-using System.Text;
-using System.Threading.Tasks;
-using Vortex.Connector;
-
-
-namespace Tc.Prober.Recorder
+﻿namespace Tc.Prober.Recorder
 {
+    using Newtonsoft.Json;
+    using System;   
+    using System.IO;
+    using System.Linq;    
+    using Vortex.Connector;
+
     internal class RecorderBase<T, P> where T : IVortexObject, new() where P : IPlain, new()
     {
         public RecorderBase(T obj)

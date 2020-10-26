@@ -1,8 +1,4 @@
-﻿using System;
-using System.Linq;
-
-
-namespace Tc.Prober.Recorder
+﻿namespace Tc.Prober.Recorder
 {
     internal class DummyRecorder : IRecorder
     {

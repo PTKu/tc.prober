@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Vortex.Connector;
+﻿namespace Tc.Prober.Recorder
+{    
+    using System.Collections.Generic;
+    using Vortex.Connector;
 
-
-namespace Tc.Prober.Recorder
-{
     internal class Player<T, P> : RecorderBase<T, P>, IRecorder where T : IVortexObject, new() where P : IPlain, new()
     {
         public Player(T obj) : base(obj)
