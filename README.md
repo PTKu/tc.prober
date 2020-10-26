@@ -141,4 +141,4 @@ public void RecordAndReplayTest()
 
 - The question arises around the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from non-real-time environment. I/O should be mirrored into data transfer variables/objects.
 - Whenever the fast execution in order of us/ms with low jitter is required, this approach would be not suitable.
-- When the execution is run by non-real-time task state of the program cannot be observed in TwinCAT3 editor.
+- When the execution is run by non-real-time task state of breakpoints in plc program are not hit.
