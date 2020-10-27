@@ -3,7 +3,7 @@
     <TargetFramework>net48</TargetFramework>
     <AssemblyVersion>0.1.13.0</AssemblyVersion>
     <FileVersion>0.1.13.0</FileVersion>
-    <InformationalVersion>0.1.13-alpha.19+Branch.develop.Sha.320c7422027c4c2f82c07ecb7d63b1189c38db91</InformationalVersion>
+    <InformationalVersion>0.1.13-alpha.20+Branch.develop.Sha.c53eb08d97b5a1cfb24c73a00f644cfe760ed5cd</InformationalVersion>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbBasicRunnerTests.g.cs" Link="_generated\PlcTcProberTests\fbBasicRunnerTests.g.cs" />
