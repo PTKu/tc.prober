@@ -19,8 +19,7 @@ $nugets = Get-ChildItem -Path nugets\
 
 foreach($nuget in $nugets)
 {   
-    # dotnet nuget push $nuget.FullName -s https://api.nuget.org/v3/index.json
-    dotnet nuget push $nuget.FullName --source "PTKugithub"
+    dotnet nuget push $nuget.FullName --source "nuget.org"    
 }
 
 
