@@ -199,3 +199,5 @@ _Libraries/
 *.tpy
 _Vortex/
 docfx/Tc.Prober.Dox/log.txt
+
+_toolz/

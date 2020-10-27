@@ -1,9 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
+    <AssemblyVersion>0.1.13.0</AssemblyVersion>
+    <FileVersion>0.1.13.0</FileVersion>
+    <InformationalVersion>0.1.13-alpha.17+Branch.develop.Sha.abea8a601ed5c8d7e6b0808da1a04dae19adbac9</InformationalVersion>
   </PropertyGroup>
-
   <ItemGroup>
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbBasicRunnerTests.g.cs" Link="_generated\PlcTcProberTests\fbBasicRunnerTests.g.cs" />
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\fbInheritanceLevel_1.g.cs" Link="_generated\PlcTcProberTests\fbInheritanceLevel_1.g.cs" />
@@ -19,15 +20,12 @@
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\stRecorder.g.cs" Link="_generated\PlcTcProberTests\stRecorder.g.cs" />
     <Compile Include="..\..\_Vortex\out\PlcTcProberTests\src\singles\Tests.g.cs" Link="_generated\PlcTcProberTests\Tests.g.cs" />
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="Inxton.Package.Vortex.Core" Version="1.6.5" />
   </ItemGroup>
-
   <ItemGroup>
     <Folder Include="_generated\PlcTcProberTests\" />
   </ItemGroup>
-
   <ItemGroup>
     <Compile Update="Properties\Localizations.Designer.cs">
       <DesignTime>True</DesignTime>
@@ -35,12 +33,10 @@
       <DependentUpon>Localizations.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-
   <ItemGroup>
     <EmbeddedResource Update="Properties\Localizations.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Localizations.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-
 </Project>
