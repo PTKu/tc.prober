@@ -10,7 +10,7 @@
     <RepositoryType>git</RepositoryType>
     <AssemblyVersion>0.1.13.0</AssemblyVersion>
     <FileVersion>0.1.13.0</FileVersion>
-    <InformationalVersion>0.1.13-alpha.20+Branch.develop.Sha.c53eb08d97b5a1cfb24c73a00f644cfe760ed5cd</InformationalVersion>
+    <InformationalVersion>0.1.13-alpha.21+Branch.develop.Sha.35243fa70b429fbf2b0913f83b1e29776ad5b98b</InformationalVersion>
     <PackageVersion>$(InformationalVersion)</PackageVersion>
     <Version>$(InformationalVersion)</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>

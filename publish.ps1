@@ -4,6 +4,7 @@ $semVer = $gitVersionInfo.SemVer;
 
 git add .
 git commit -m $semVer;
+git push
 
 $nugets = Get-ChildItem -Path nugets\
 foreach($nuget in $nugets)
