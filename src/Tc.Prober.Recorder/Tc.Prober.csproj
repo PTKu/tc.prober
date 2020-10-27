@@ -2,6 +2,7 @@
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <PackageId>TcOpen.Tc.Prober.Recorder</PackageId>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Inxton.Vortex.Connector" Version="1.3.9" />
