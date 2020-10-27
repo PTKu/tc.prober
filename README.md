@@ -11,7 +11,7 @@ This project is using:
 
 **TL;DR Inxton licensing**
 
-Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at inxton.com. **If do not want to register and you are contributing to https://github.com/dhullett08/TcOpen ping me @PTKu to get license without registration**. 
+Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](www.inxton.com). 
 
 ## Concept
 
@@ -133,6 +133,7 @@ public void RecordAndReplayTest()
 
 ## Advantages
 
+- Direct use of well evolved unit testing frameworks in plc code testing.
 - Testing method is in control of the cycle execution. It allows create assertion in single cycles.
 - Ability to record the state of the plc structure for later reconstruction of hardware behavior. This is particularly useful when the hardware component are available for testing for limited time.
 
@@ -140,4 +141,4 @@ public void RecordAndReplayTest()
 
 - The question arises around the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from non-real-time environment. I/O should be mirrored into data transfer variables/objects.
 - Whenever the fast execution in order of us/ms with low jitter is required, this approach would be not suitable.
-- When the execution is run by non-real-time task state of the program cannot be observed in TwinCAT3 editor.
+- When the execution is run by non-real-time task state of breakpoints in plc program are not hit.
