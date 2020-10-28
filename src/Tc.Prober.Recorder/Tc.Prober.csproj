@@ -14,8 +14,17 @@
     <PackageVersion>$(InformationalVersion)</PackageVersion>
     <Version>$(InformationalVersion)</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Library for unit testing TwinCAT3 Plc code.</Description>
+    <Copyright>TcOpenGroup contributors</Copyright>
+    <PackageIcon>TcOpenLogo128.png</PackageIcon>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Inxton.Vortex.Connector" Version="1.3.9" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TcOpenLogo128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 </Project>
