@@ -8,9 +8,9 @@
     <PackageProjectUrl>https://github.com/TcOpenGroup/tc.prober</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TcOpenGroup/tc.prober</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <AssemblyVersion>0.1.13.0</AssemblyVersion>
-    <FileVersion>0.1.13.0</FileVersion>
-    <InformationalVersion>0.1.13-alpha.30+Branch.develop.Sha.07940c77638c8666ff830c30d926473bd57d6ea2</InformationalVersion>
+    <AssemblyVersion>0.3.0.0</AssemblyVersion>
+    <FileVersion>0.3.0.0</FileVersion>
+    <InformationalVersion>0.3.0-alpha.1+Branch.develop.Sha.02a3c846fa59432b34737d664bc33a8546fd145a</InformationalVersion>
     <PackageVersion>$(InformationalVersion)</PackageVersion>
     <Version>$(InformationalVersion)</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
