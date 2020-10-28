@@ -17,6 +17,7 @@
     <Description>Library for unit testing TwinCAT3 Plc code.</Description>
     <Copyright>TcOpenGroup contributors</Copyright>
     <PackageIcon>TcOpenLogo128.png</PackageIcon>
+    <PackageTags>twincat3 plc unit-testing</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Inxton.Vortex.Connector" Version="1.3.9" />
