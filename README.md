@@ -17,7 +17,7 @@ Takes your plc program and trans-piles it into .net accessible twin represented 
 
 ### TL;DR Inxton licensing*
 
-Inxton developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](www.inxton.com). For the unit-testing project, the developer license is sufficient.
+Inxton developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](https://www.inxton.com). For the unit-testing project, the developer license is sufficient.
 
 ## Brief concept description
 
