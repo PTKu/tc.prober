@@ -13,11 +13,11 @@
 
 ## Inxton.Vortex.Framework IVF
 
-Takes you plc program and trans-piles it into .net accessible twin. Represented as clr/.net object that are accessible from any .net application. It is as if you referenced plc project in a .net project. You can read [more here](https://github.com/Inxton/documentation/blob/master/apis/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md).
+Takes your plc program and trans-piles it into .net accessible twin represented as clr/.net objects that are accessible from any .net application. It is as if you referenced plc project in a .net project. You can read [more here](https://github.com/Inxton/documentation/blob/master/apis/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md).
 
 ### TL;DR Inxton licensing*
 
-Inxton developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](www.inxton.com). For the purpose of unit testing project the developer license is sufficient.
+Inxton developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](www.inxton.com). For the unit-testing project, the developer license is sufficient.
 
 ## Brief concept description
 
@@ -80,7 +80,7 @@ public void basic_runner_tests_run_count(ushort expected)
 
 ## Test recording
 
-The runner can be run in recording/replaying mode. This allows to record I/O image during testing with the hardware and to replay it later when the hardware is no longe available.
+The runner can be run in recording/replaying mode. This allows to record I/O image during testing with the hardware and to replay it later when the hardware is no longer available.
 
 Testing with recording
 
@@ -113,7 +113,7 @@ public void RecordAndReplayTest()
                     );
 
 
-            // We run the same code with re-play. 
+            // We run the same code with replay. 
 
             // Actor is player
             actor = new Recorder.Recorder<stRecorder, PlainstRecorder>(sut._recorder, RecorderModeEnum.Player).Actor;
@@ -141,12 +141,12 @@ public void RecordAndReplayTest()
 
 ## Advantages
 
-- Direct use of well evolved unit testing frameworks in plc code testing.
-- Runners are in control of the cycle execution. It allows create assertion in single cycles.
-- Ability to record the state of the plc structure for later reconstruction of hardware behavior. This is particularly useful when the hardware component are available for testing for limited time.
+- Direct use of well-evolved unit testing frameworks in plc code testing.
+- Runners are in control of the cycle execution. It allows creating assertions in single cycles.
+- Ability to record the state of the plc structure for later reconstruction of hardware behaviour. This is particularly useful when the hardware component is available for testing for a limited time.
 
 ## Limitations
 
-- The method is executed by runners and not plc task therefor it must be taken into consideration the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from non-real-time environment. I/O should be mirrored into data transfer variables/objects.
+- The method is executed by runners and not plc task therefore, it must be taken into consideration the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from the non-real-time environment. I/O should be mirrored into data transfer variables/objects.
 - Whenever the fast execution in order of ```us``` or low jitter is required, this approach would be is not suitable.
-- When the execution is provided by test runners of breakpoints in plc program are not hit, however the state of plc program of can be observed.
+- When the execution is provided by test runners of breakpoints in plc program are not hit; however, the state of plc program can be observed.
