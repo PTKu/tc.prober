@@ -1,24 +1,29 @@
-# tc.prober
+# Tc.Prober
 
-This is an experimental project that aims to open a discussion about a possibility of unit testing of TwinCAT3 code using unit testing frameworks (such as NUnit, XUnit, etc.) to run testing code and make assertions. This approach would bring the advantage of using well-evolved testing frameworks and tools in unit testing of the plc code.
+*Tc.Prober* gives you the possibility to unit test your TwinCAT3 plc code using unit testing frameworks (such as NUnit, XUnit, etc.). It provides runners that execute plc code remotely and allow you to **arrange-act-assert in .net environment**. This approach brings the advantage of using well-evolved testing frameworks and tools in unit testing of the plc code.
 
-This project is using:
+![Test explorer](assets/img/test_xplorer.png)
 
-- Beckhoffs' TwinCAT3 4024.10
+## This project is using:
+
+- TwinCAT3 4024.10
 - VS2019
-- Inxton.Package.Vortex.Core (referenced as NuGet package)
-- NUnit
+- nUnit/xUnit
+- Inxton.Package.Vortex.Essentials
 
-**TL;DR Inxton licensing**
+## Inxton.Vortex.Framework IVF
 
-Developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](www.inxton.com). 
+Takes your plc program and trans-piles it into .net accessible twin represented as clr/.net objects that are accessible from any .net application. It is as if you referenced plc project in a .net project. You can read [more here](https://github.com/Inxton/documentation/blob/master/apis/Inxton.vortex.compiler.console/Conceptual/TwinObjects.md).
 
-## Concept
+### TL;DR Inxton licensing*
 
-There a few enablers that make this discussion possible:
+Inxton developer license is free and grants full functionality. It limits the run of the program to a period of up to 2 hours. After this period, the restart is required. You can get the license at [inxton.com](https://www.inxton.com). For the unit-testing project, the developer license is sufficient.
 
-- The first is the possibility of invoking plc methods over ads.
-- Invoking these methods from .net environment with plc method signature and return value.
+## Brief concept description
+
+### Rpc plc method
+
+Any method with ```{attribute 'TcRpcEnable'}``` is trans-piled by the IVF as clr/.net method of its function block and makes it invocable from .net environment. **The methods ```return type``` and ```parameters``` must be of primitive type.**
 
 *Example plc method*
 
@@ -38,7 +43,9 @@ runs := runs + 1;
 RunCount := runs;
 ~~~
 
-> Notice the attribute 'TcRpcEnable' that makes this method eligible to be Rpc called.
+### .Net method
+
+The method will be rendered available into .net by IVF compiler.
 
 *Calling the method from C#*
 
@@ -48,6 +55,8 @@ public ushort RunCount(System.Boolean resetCounter)
     return (ushort)Connector.InvokeRpc("Tests._basicRunnerTests", "RunCount", new object[]{resetCounter});
 }
 ~~~
+
+### Run test in nUnit
 
 Unit testing
 
@@ -68,6 +77,10 @@ public void basic_runner_tests_run_count(ushort expected)
     Assert.AreEqual(expected, (ushort)actual);
 }
 ~~~
+
+## Test recording
+
+The runner can be run in recording/replaying mode. This allows to record I/O image during testing with the hardware and to replay it later when the hardware is no longer available.
 
 Testing with recording
 
@@ -100,7 +113,7 @@ public void RecordAndReplayTest()
                     );
 
 
-            // We run the same code with re-play. 
+            // We run the same code with replay. 
 
             // Actor is player
             actor = new Recorder.Recorder<stRecorder, PlainstRecorder>(sut._recorder, RecorderModeEnum.Player).Actor;
@@ -126,19 +139,14 @@ public void RecordAndReplayTest()
         }
 ~~~
 
-## Assumptions
-
-- It is possible to test single units of the plc program without running inside hard-real-time task of the plc system.
-- The cyclical or event-driven engine can be managed from a non-real-time environment.
-
 ## Advantages
 
-- Direct use of well evolved unit testing frameworks in plc code testing.
-- Testing method is in control of the cycle execution. It allows create assertion in single cycles.
-- Ability to record the state of the plc structure for later reconstruction of hardware behavior. This is particularly useful when the hardware component are available for testing for limited time.
+- Direct use of well-evolved unit testing frameworks in plc code testing.
+- Runners are in control of the cycle execution. It allows creating assertions in single cycles.
+- Ability to record the state of the plc structure for later reconstruction of hardware behaviour. This is particularly useful when the hardware component is available for testing for a limited time.
 
 ## Limitations
 
-- The question arises around the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from non-real-time environment. I/O should be mirrored into data transfer variables/objects.
-- Whenever the fast execution in order of us/ms with low jitter is required, this approach would be not suitable.
-- When the execution is run by non-real-time task state of breakpoints in plc program are not hit.
+- The method is executed by runners and not plc task therefore, it must be taken into consideration the interaction between hard-real-time and non-real-time, in particular when interacting with I/O systems. The units under tests should not be called from real-time, but the execution must be handled from the non-real-time environment. I/O should be mirrored into data transfer variables/objects.
+- Whenever the fast execution in order of ```us``` or low jitter is required, this approach would be is not suitable.
+- When the execution is provided by test runners of breakpoints in plc program are not hit; however, the state of plc program can be observed.

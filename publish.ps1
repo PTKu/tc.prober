@@ -2,10 +2,6 @@
 $gitVersionInfo = .\_toolz\gitversion.exe | ConvertFrom-Json 
 $semVer = $gitVersionInfo.SemVer;
 
-git add .
-git commit -m $semVer;
-git push
-
 $nugets = Get-ChildItem -Path nugets\
 foreach($nuget in $nugets)
 {   
@@ -19,7 +15,7 @@ $nugets = Get-ChildItem -Path nugets\
 
 foreach($nuget in $nugets)
 {   
-    dotnet nuget push $nuget.FullName --source 'nuget.org'    
+    # dotnet nuget push $nuget.FullName --source 'nuget.org'    
 }
 
 
